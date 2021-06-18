@@ -1,2 +1,2 @@
-# digit-recognizer
-qwerts
+# Digit-Recognizer
+
