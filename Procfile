@@ -1,1 +1,1 @@
-web: sh setup.sh && streamlit part_2_new.py
+web: sh setup.sh && streamlit part_1.py
