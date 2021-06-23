@@ -20,17 +20,6 @@ drawing_mode = st.sidebar.selectbox("Drawing tool:", ("freedraw", "line", "rect"
 realtime_update = st.sidebar.checkbox("Update in realtime", True)
 
 
-
-# resize from 250 to 28 x 28
-# canvas result.image_data
-# convert into usigned int 8
-# change to grayscale
-# expand dimensions
-# model.predict 
-# np.argmax
-# plot a graph from output
-
-
 if canvas_result.image_data is not None:
   st.image(canvas_result.image_data)
   img=cv2.resize(canvas_result.image_data.astype('uint8'),(28,28))
